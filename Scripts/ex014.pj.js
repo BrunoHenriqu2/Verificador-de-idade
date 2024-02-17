@@ -17,7 +17,7 @@ function Verificar () {
         if (radm.checked) {
             gender = "Male"
 
-            if (age >= 0 && age < 3) {
+            if (age >= 0 && age < 12) {
                 res.innerHTML = '<img src = "Imagens/bebe.png" alt = "imagem de um bebê">'
                 res.innerHTML += `<p> você nem saiu do berço ainda! apenas ${age} ano (s) </p>`
             } else if (age >= 13 && age < 18) {
