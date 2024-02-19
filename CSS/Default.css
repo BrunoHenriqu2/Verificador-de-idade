@@ -7,6 +7,11 @@ h1 {
     text-align: center;
 }
 
+#verify {
+    Width: 40px;
+    Height: 20px;
+}
+
 header {
     color: white;
     text-align: center;
